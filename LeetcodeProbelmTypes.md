@@ -2,309 +2,843 @@ LeetCode questions can generally be categorized based on common problem-solving 
 Recognizing these patterns is crucial for improving problem-solving efficiency.
 Here's a list of some common patterns along with examples of LeetCode problems typically associated with each pattern:
 
-### 1. **Two Pointers Pattern**
-   - This technique involves using two pointers to solve problems that involve arrays, strings, or linked lists.
-   - **Example Problems:**
-     - [Two Sum](https://leetcode.com/problems/two-sum/)
-     - [3Sum](https://leetcode.com/problems/3sum/)
-     - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+### 1. **Two Pointers**
+- **Easy:**
+  - [Two Sum](https://leetcode.com/problems/two-sum/)
+  - [Reverse String](https://leetcode.com/problems/reverse-string/)
+  - [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+- **Medium:**
+  - [3Sum](https://leetcode.com/problems/3sum/)
+  - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+  - [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+- **Hard:**
+  - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+  - [4Sum](https://leetcode.com/problems/4sum/)
 
-### 2. **Sliding Window Pattern**
-   - This pattern is used for problems involving substrings or subarrays where you need to find something within a moving window.
-   - **Example Problems:**
-     - [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-     - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
-     - [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+---
 
-### 3. **Fast and Slow Pointers (Tortoise and Hare) Pattern**
-   - This is used for cycle detection in linked lists and arrays.
-   - **Example Problems:**
-     - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
-     - [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-     - [Happy Number](https://leetcode.com/problems/happy-number/)
+### 2. **Sliding Window**
+- **Easy:**
+  - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+  - [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+  - [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- **Medium:**
+  - [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)
+  - [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+  - [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
+- **Hard:**
+  - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+  - [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 
-### 4. **Merge Intervals Pattern**
-   - Problems involving overlapping intervals where sorting and merging intervals is a common approach.
-   - **Example Problems:**
-     - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-     - [Insert Interval](https://leetcode.com/problems/insert-interval/)
-     - [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+---
 
-### 5. **Cyclic Sort Pattern**
-   - This is useful for problems involving arrays containing numbers from a given range, often involving missing numbers.
-   - **Example Problems:**
-     - [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
-     - [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-     - [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+### 3. **Fast and Slow Pointers (Tortoise and Hare)**
+- **Easy:**
+  - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+  - [Happy Number](https://leetcode.com/problems/happy-number/)
+  - [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+- **Medium:**
+  - [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+  - [Reorder List](https://leetcode.com/problems/reorder-list/)
+  - [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- **Hard:**
+  - [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+  - [Find the Start of the Cycle](https://leetcode.com/problems/linked-list-cycle-ii/)
 
-### 6. **In-place Reversal of a Linked List Pattern**
-   - Reversing parts of a linked list in-place is a common pattern in linked list problems.
-   - **Example Problems:**
-     - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-     - [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
-     - [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+---
 
-### 7. **Tree Traversal Patterns**
-   - Problems where you need to traverse or modify a binary tree or a graph in a specific order.
-   - **Example Problems:**
-     - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-     - [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-     - [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+### 4. **Merge Intervals**
+- **Easy:**
+  - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+  - [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+  - [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+- **Medium:**
+  - [Insert Interval](https://leetcode.com/problems/insert-interval/)
+  - [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+  - [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- **Hard:**
+  - [Employee Free Time](https://leetcode.com/problems/employee-free-time/)
+  - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
-### 8. **Dynamic Programming (DP) Patterns**
-   - Dynamic programming problems typically involve overlapping subproblems and optimal substructure. Common types include:
-     - **Knapsack DP**: Subset Sum problems
-     - **Fibonacci Sequence DP**: Recursive + Memoization approaches
-     - **Subsequences DP**: Longest increasing subsequence, longest common subsequence.
-   - **Example Problems:**
-     - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-     - [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-     - [House Robber](https://leetcode.com/problems/house-robber/)
+---
 
-### 9. **Greedy Algorithm Pattern**
-   - Greedy algorithms work by choosing the locally optimal solution at each step with the hope of finding the global optimum.
-   - **Example Problems:**
-     - [Jump Game](https://leetcode.com/problems/jump-game/)
-     - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-     - [Candy](https://leetcode.com/problems/candy/)
+### 5. **Cyclic Sort**
+- **Easy:**
+  - [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+  - [Missing Number](https://leetcode.com/problems/missing-number/)
+  - [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+- **Medium:**
+  - [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+  - [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+  - [Set Mismatch](https://leetcode.com/problems/set-mismatch/)
+- **Hard:**
+  - [Find Missing Ranges](https://leetcode.com/problems/missing-ranges/)
+  - [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
 
-### 10. **Backtracking Pattern**
-   - Backtracking is used for problems where you need to explore all possible options, such as generating all permutations, subsets, or solving mazes.
-   - **Example Problems:**
-     - [Combination Sum](https://leetcode.com/problems/combination-sum/)
-     - [Subsets](https://leetcode.com/problems/subsets/)
-     - [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+---
 
-### 11. **Binary Search Pattern**
-   - Binary search is typically used in sorted arrays or to find an answer that can be structured in a monotonic function (searching for a threshold).
-   - **Example Problems:**
-     - [Binary Search](https://leetcode.com/problems/binary-search/)
-     - [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-     - [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+### 6. **In-place Reversal of a Linked List**
+- **Easy:**
+  - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+  - [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+  - [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- **Medium:**
+  - [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+  - [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+  - [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
+- **Hard:**
+  - [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)
+  - [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 
-### 12. **Topological Sort Pattern**
-   - Used for problems related to Directed Acyclic Graphs (DAG), where the goal is to order tasks based on dependencies.
-   - **Example Problems:**
-     - [Course Schedule](https://leetcode.com/problems/course-schedule/)
-     - [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
-     - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+---
 
-### 13. **Bit Manipulation Pattern**
-   - Problems that involve manipulating bits, often used in problems dealing with sets, integers, or binary representations.
-   - **Example Problems:**
-     - [Single Number](https://leetcode.com/problems/single-number/)
-     - [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-     - [Missing Number](https://leetcode.com/problems/missing-number/)
+### 7. **Tree Traversal**
+- **Easy:**
+  - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+  - [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+  - [Path Sum](https://leetcode.com/problems/path-sum/)
+- **Medium:**
+  - [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+  - [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+  - [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- **Hard:**
+  - [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+  - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
-### 14. **Union Find (Disjoint Set) Pattern**
-   - This pattern is commonly used to solve connectivity problems in graphs.
-   - **Example Problems:**
-     - [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-     - [Accounts Merge](https://leetcode.com/problems/accounts-merge/)
-     - [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+---
 
-### 15. **Heap/Priority Queue Pattern**
-   - Heaps and priority queues are often used when dealing with tasks that require access to the minimum or maximum element in a collection.
-   - **Example Problems:**
-     - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-     - [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-     - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+### 8. **Dynamic Programming (DP)**
+- **Easy:**
+  - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+  - [House Robber](https://leetcode.com/problems/house-robber/)
+  - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+- **Medium:**
+  - [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+  - [Coin Change](https://leetcode.com/problems/coin-change/)
+  - [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- **Hard:**
+  - [Edit Distance](https://leetcode.com/problems/edit-distance/)
+  - [Burst Balloons](https://leetcode.com/problems/burst-balloons/)
+
+---
+
+### 9. **Greedy Algorithm**
+- **Easy:**
+  - [Assign Cookies](https://leetcode.com/problems/assign-cookies/)
+  - [Lemonade Change](https://leetcode.com/problems/lemonade-change/)
+  - [Is Subsequence](https://leetcode.com/problems/is-subsequence/)
+- **Medium:**
+  - [Jump Game](https://leetcode.com/problems/jump-game/)
+  - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+  - [Candy](https://leetcode.com/problems/candy/)
+- **Hard:**
+  - [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+  - [Candy](https://leetcode.com/problems/candy/)
+
+---
+
+### 10. **Backtracking**
+- **Easy:**
+  - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+  - [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+  - [Permutations](https://leetcode.com/problems/permutations/)
+- **Medium:**
+  - [Combination Sum](https://leetcode.com/problems/combination-sum/)
+  - [Subsets](https://leetcode.com/problems/subsets/)
+  - [N-Queens](https://leetcode.com/problems/n-queens/)
+- **Hard:**
+  - [Word Search II](https://leetcode.com/problems/word-search-ii/)
+  - [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+
+---
+
+### 11. **Binary Search**
+- **Easy:**
+  - [Binary Search](https://leetcode.com/problems/binary-search/)
+  - [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
+  - [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+- **Medium:**
+  - [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+  - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- **Hard:**
+  - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+  - [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)
+
+---
+
+### 12. **Topological Sort**
+- **Easy:**
+  - [Course Schedule](https://leetcode.com/problems/course-schedule/)
+  - [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
+  - [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)
+- **Medium:**
+  - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+  - [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+  - [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+- **Hard:**
+  - [Word Ladder](https://leetcode.com/problems/word-ladder/)
+  - [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/)
+
+---
+
+### 13. **Bit Manipulation**
+- **Easy:**
+  - [Single Number](https://leetcode.com/problems/single-number/)
+  - [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+  - [Power of Two](https://leetcode.com/problems/power-of-two/)
+- **Medium:**
+  - [Counting Bits](https://leetcode.com/problems/counting-bits/)
+  - [Subset XOR Sum](https://leetcode.com/problems/subset-xor-sum/)
+  - [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+- **Hard:**
+  - [Maximum XOR With an Element From Array](https://leetcode.com/problems/maximum-xor-with-an-element-from-array/)
+  - [Find the Missing Number](https://leetcode.com/problems/missing-number/)
+
+---
+
+### 14. **Union Find (Disjoint Set)**
+- **Easy:**
+  - [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+  - [Friend Circles](https://leetcode.com/problems/friend-circles/)
+  - [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+- **Medium:**
+  - [Accounts Merge](https://leetcode.com/problems/accounts-merge/)
+  - [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+  - [Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)
+- **Hard:**
+  - [Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)
+  - [Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
+
+---
+
+### 15. **Heap/Priority Queue**
+- **Easy:**
+  - [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
+  - [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+  - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- **Medium:**
+  - [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+  - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+  - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- **Hard:**
+  - [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+  - [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+
+---
 
 ### 16. **Mathematical Patterns**
-   - Some problems are centered on mathematical formulas, properties, or patterns.
-   - **Example Problems:**
-     - [Pow(x, n)](https://leetcode.com/problems/powx-n/)
-     - [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
-     - [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
+- **Easy:**
+  - [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+  - [Happy Number](https://leetcode.com/problems/happy-number/)
+  - [Power of Three](https://leetcode.com/problems/power-of-three/)
+- **Medium:**
+  - [Valid Square](https://leetcode.com/problems/valid-square/)
+  - [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)
+  - [Perfect Squares](https://leetcode.com/problems/perfect-squares/)
+- **Hard:**
+  - [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)
+  - [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)
 
-### 17. **Trie (Prefix Tree) Pattern**
-   - Tries are useful for problems involving prefix-based searches or dictionary-like problems.
-   - **Example Problems:**
-     - [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
-     - [Word Search II](https://leetcode.com/problems/word-search-ii/)
-     - [Replace Words](https://leetcode.com/problems/replace-words/)
+---
 
-### 18. **Matrix Traversal Patterns**
-   - Problems involving traversing 2D grids or matrices often use DFS, BFS, or dynamic programming.
-   - **Example Problems:**
-     - [Unique Paths](https://leetcode.com/problems/unique-paths/)
-     - [Word Search](https://leetcode.com/problems/word-search/)
-     - [Maximal Square](https://leetcode.com/problems/maximal-square/)
+### 17. **Trie (Prefix Tree)**
+- **Easy:**
+  - [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+  - [Replace Words](https://leetcode.com/problems/replace-words/)
+  - [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+- **Medium:**
+  - [Word Search II](https://leetcode.com/problems/word-search-ii/)
+  - [Concatenated Words](https://leetcode.com/problems/concatenated-words/)
+  - [Word Squares](https://leetcode.com/problems/word-squares/)
+- **Hard:**
+  - [Stream of Characters](https://leetcode.com/problems/stream-of-characters/)
+  - [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)
 
-### 19. **Monotonic Stack Pattern**
-   - Used to maintain a stack where elements are sorted in some order and helps to solve problems related to the nearest greater or smaller element.
-   - **Example Problems:**
-     - [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
-     - [Next Greater Element](https://leetcode.com/problems/next-greater-element-i/)
-     - [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+---
 
-### 20. **Graph Traversal Patterns (DFS/BFS)**
-   - Depth-First Search (DFS) and Breadth-First Search (BFS) are common approaches for graph-related problems.
-   - **Example Problems:**
-     - [Clone Graph](https://leetcode.com/problems/clone-graph/)
-     - [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-     - [Pacific Atlantic Water Flow](https://leetcode.com/problems
+### 18. **Matrix Traversal**
+- **Easy:**
+  - [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)
+  - [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+  - [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
+- **Medium:**
+  - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+  - [Rotate Image](https://leetcode.com/problems/rotate-image/)
+  - [Game of Life](https://leetcode.com/problems/game-of-life/)
+- **Hard:**
+  - [Find the Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+  - [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 
-### 21. **Divide and Conquer Pattern**
-   - This involves recursively breaking down a problem into smaller subproblems until they are simple enough to be solved directly.
-   - **Example Problems:**
-     - [Merge Sort](https://leetcode.com/problems/sort-an-array/) (custom implementation)
-     - [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-     - [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)
+---
 
-### 22. **Top-K Elements Pattern**
-   - This pattern is used when the problem asks to find the top K elements from a collection of items.
-   - **Example Problems:**
-     - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-     - [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
-     - [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+### 19. **Monotonic Stack**
+- **Easy:**
+  - [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+  - [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+  - [Find Nearest Smaller Element](https://leetcode.com/problems/next-greater-element-i/)
+- **Medium:**
+  - [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+  - [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
+  - [Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
+- **Hard:**
+  - [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+  - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
-### 23. **Reservoir Sampling Pattern**
-   - This is a probabilistic algorithm used to randomly select a sample of k items from a list or data stream.
-   - **Example Problems:**
-     - [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)
-     - [Random Pick Index](https://leetcode.com/problems/random-pick-index/)
+---
 
-### 24. **Prefix Sum Pattern**
-   - Often used to quickly compute range sums or evaluate cumulative effects across ranges.
-   - **Example Problems:**
-     - [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
-     - [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
-     - [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
+### 20. **Graph Traversal (DFS/BFS)**
+- **Easy:**
+  - [Flood Fill](https://leetcode.com/problems/flood-fill/)
+  - [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+  - [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+- **Medium:**
+  - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+  - [Word Ladder](https://leetcode.com/problems/word-ladder/)
+  - [Clone Graph](https://leetcode.com/problems/clone-graph/)
+- **Hard:**
+  - [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)
+  - [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+    
+---
+
+### 21. **Divide and Conquer**
+- **Easy:**
+  - [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+  - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+  - [Power of Three](https://leetcode.com/problems/power-of-three/)
+- **Medium:**
+  - [Sort an Array](https://leetcode.com/problems/sort-an-array/)
+  - [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+  - [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)
+- **Hard:**
+  - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+  - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+
+---
+
+### 22. **Top-K Elements**
+- **Easy:**
+  - [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+  - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+  - [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- **Medium:**
+  - [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+  - [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
+  - [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
+- **Hard:**
+  - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+  - [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+
+---
+
+### 23. **Reservoir Sampling**
+- **Easy:**
+  - [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)
+  - [Random Pick Index](https://leetcode.com/problems/random-pick-index/)
+  - [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)
+- **Medium:**
+  - [Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)
+  - [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)
+  - [Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/)
+- **Hard:**
+  - [Random Pick with Infinite Stream](https://leetcode.com/problems/random-pick-with-infinite-stream/) (Problem concept rather than direct LeetCode)
+  - [Implement Reservoir Sampling](https://leetcode.com/problems/random-pick-index/)
+
+---
+
+### 24. **Prefix Sum**
+- **Easy:**
+  - [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
+  - [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+  - [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+- **Medium:**
+  - [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
+  - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+  - [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+- **Hard:**
+  - [Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)
+  - [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
+
+---
 
 ### 25. **Union-Find with Path Compression and Union by Rank**
-   - A more optimized version of the Union-Find/Disjoint Set pattern for graph-based problems, often used in problems involving connected components.
-   - **Example Problems:**
-     - [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
-     - [Accounts Merge](https://leetcode.com/problems/accounts-merge/)
-     - [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)
+- **Easy:**
+  - [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+  - [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+  - [Friend Circles](https://leetcode.com/problems/friend-circles/)
+- **Medium:**
+  - [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+  - [Accounts Merge](https://leetcode.com/problems/accounts-merge/)
+  - [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)
+- **Hard:**
+  - [Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)
+  - [Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
 
-### 26. **Monotonic Queue Pattern**
-   - Similar to the Monotonic Stack, but for handling sliding window problems where maximum or minimum values are required.
-   - **Example Problems:**
-     - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-     - [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)
+---
 
-### 27. **Meet-in-the-Middle Pattern**
-   - This is a technique that reduces the time complexity of some problems by splitting the input into two parts, solving them individually, and then merging results.
-   - **Example Problems:**
-     - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
-     - [Subset Sum](https://leetcode.com/problems/subsets/)
+### 26. **Monotonic Queue**
+- **Easy:**
+  - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+  - [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+  - [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+- **Medium:**
+  - [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
+  - [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)
+  - [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+- **Hard:**
+  - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+  - [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
-### 28. **Matrix Exponentiation Pattern**
-   - This pattern is often applied to problems involving recurrence relations or iterative processes like Fibonacci sequences.
-   - **Example Problems:**
-     - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
-     - [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
+---
+
+### 27. **Meet-in-the-Middle**
+- **Easy:**
+  - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+  - [Subset Sum](https://leetcode.com/problems/subsets/)
+  - [Subsets II](https://leetcode.com/problems/subsets-ii/)
+- **Medium:**
+  - [Count of Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+  - [Smallest Subsequence](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)
+  - [Equal Sum Partition Problem](https://leetcode.com/problems/partition-equal-subset-sum/)
+- **Hard:**
+  - [Kth Largest Subset Sum](https://leetcode.com/problems/kth-largest-subset-sum/)
+  - [Find a Subsequence in the Array](https://leetcode.com/problems/find-subsequence-in-the-array/)
+
+---
+
+### 28. **Matrix Exponentiation**
+- **Easy:**
+  - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+  - [Nth Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
+  - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- **Medium:**
+  - [Matrix Chain Multiplication](https://leetcode.com/problems/matrix-chain-multiplication/) (custom implementations)
+  - [Fibonacci Matrix Exponentiation](https://leetcode.com/problems/fibonacci-number/) (custom implementations)
+  - [Dynamic Programming over Matrix Chain](https://leetcode.com/problems/matrix-chain-multiplication/)
+- **Hard:**
+  - [Exponentiation by Squaring](https://leetcode.com/problems/powx-n/)
+  - [Fibonacci in Logarithmic Time](https://leetcode.com/problems/n-th-tribonacci-number/)
+
+---
 
 ### 29. **Greedy + Sorting**
-   - In many greedy problems, sorting helps to arrange the elements in a way that makes it easier to apply the greedy approach.
-   - **Example Problems:**
-     - [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
-     - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
-     - [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)
+- **Easy:**
+  - [Assign Cookies](https://leetcode.com/problems/assign-cookies/)
+  - [Is Subsequence](https://leetcode.com/problems/is-subsequence/)
+  - [Partition Labels](https://leetcode.com/problems/partition-labels/)
+- **Medium:**
+  - [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)
+  - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+  - [Car Fleet](https://leetcode.com/problems/car-fleet/)
+- **Hard:**
+  - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+  - [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
 
-### 30. **Geometry / Computational Geometry Pattern**
-   - Problems requiring geometric calculations or spatial reasoning.
-   - **Example Problems:**
-     - [Convex Hull](https://leetcode.com/problems/erect-the-fence/)
-     - [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
-     - [Rectangle Area](https://leetcode.com/problems/rectangle-area/)
+---
+
+### 30. **Geometry / Computational Geometry**
+- **Easy:**
+  - [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)
+  - [Rectangle Area](https://leetcode.com/problems/rectangle-area/)
+  - [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
+- **Medium:**
+  - [Convex Hull](https://leetcode.com/problems/erect-the-fence/)
+  - [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
+  - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+- **Hard:**
+  - [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+  - [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+
+Continuing with the remaining patterns and their associated problems from LeetCode:
+
+---
 
 ### 31. **Segment Tree / Binary Indexed Tree (Fenwick Tree)**
-   - Useful for efficiently handling range queries and range updates on arrays.
-   - **Example Problems:**
-     - [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
-     - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
-     - [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
+- **Easy:**
+  - [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+  - [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+  - [Binary Indexed Tree Implementation](https://leetcode.com/problems/range-sum-query-immutable/) (conceptual)
+- **Medium:**
+  - [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
+  - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+  - [Maximum Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+- **Hard:**
+  - [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
+  - [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
+
+---
 
 ### 32. **Game Theory / Minimax**
-   - This pattern is typically used for turn-based games, with optimal strategies for both players in mind.
-   - **Example Problems:**
-     - [Stone Game](https://leetcode.com/problems/stone-game/)
-     - [Predict the Winner](https://leetcode.com/problems/predict-the-winner/)
-     - [Nim Game](https://leetcode.com/problems/nim-game/)
+- **Easy:**
+  - [Nim Game](https://leetcode.com/problems/nim-game/)
+  - [Stone Game](https://leetcode.com/problems/stone-game/)
+  - [Can I Win](https://leetcode.com/problems/can-i-win/)
+- **Medium:**
+  - [Predict the Winner](https://leetcode.com/problems/predict-the-winner/)
+  - [Flip Game II](https://leetcode.com/problems/flip-game-ii/)
+  - [Stone Game VII](https://leetcode.com/problems/stone-game-vii/)
+- **Hard:**
+  - [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+  - [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+
+---
 
 ### 33. **Graph Coloring / Bipartite Graphs**
-   - This pattern involves determining whether a graph can be colored with two colors (or more) without adjacent nodes sharing the same color.
-   - **Example Problems:**
-     - [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
-     - [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
-     - [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+- **Easy:**
+  - [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+  - [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
+  - [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- **Medium:**
+  - [Course Schedule](https://leetcode.com/problems/course-schedule/)
+  - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+  - [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+- **Hard:**
+  - [Graph Coloring Problem](https://leetcode.com/problems/possible-bipartition/) (conceptual)
+  - [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+
+---
 
 ### 34. **Sweep Line Algorithm**
-   - A technique used to process points or events in a sorted manner, often used in computational geometry problems.
-   - **Example Problems:**
-     - [Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
-     - [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- **Easy:**
+  - [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+  - [Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
+  - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- **Medium:**
+  - [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+  - [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
+  - [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+- **Hard:**
+  - [Employee Free Time](https://leetcode.com/problems/employee-free-time/)
+  - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+
+---
 
 ### 35. **Exponential Search**
-   - This pattern is applied when trying to find the boundary or a specific element, especially when the problem involves searching in unbounded or sparse lists.
-   - **Example Problems:**
-     - [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)
-     - [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- **Easy:**
+  - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+  - [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+  - [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- **Medium:**
+  - [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  - [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+  - [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+- **Hard:**
+  - [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)
+  - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
+---
 
 ### 36. **Trie + Backtracking**
-   - This combines Trie (Prefix Tree) and backtracking, useful when you are searching for words from a dictionary in a matrix or list of strings.
-   - **Example Problems:**
-     - [Word Search II](https://leetcode.com/problems/word-search-ii/)
+- **Easy:**
+  - [Word Search](https://leetcode.com/problems/word-search/)
+  - [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+  - [Word Squares](https://leetcode.com/problems/word-squares/)
+- **Medium:**
+  - [Word Search II](https://leetcode.com/problems/word-search-ii/)
+  - [Replace Words](https://leetcode.com/problems/replace-words/)
+  - [Concatenated Words](https://leetcode.com/problems/concatenated-words/)
+- **Hard:**
+  - [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
+  - [Stream of Characters](https://leetcode.com/problems/stream-of-characters/)
+
+---
 
 ### 37. **Binary Search on Answer**
-   - This technique applies binary search not on a sorted array but on the range of possible answers, often used in optimization problems.
-   - **Example Problems:**
-     - [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
-     - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
-     - [Aggressive Cows](https://www.spoj.com/problems/AGGRCOW/) (not on LeetCode, but common in competitive programming)
+- **Easy:**
+  - [Find Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+  - [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)
+  - [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+- **Medium:**
+  - [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+  - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+  - [Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+- **Hard:**
+  - [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)
+  - [Find the Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+
+---
 
 ### 38. **Greedy + Dynamic Programming Hybrid**
-   - Some problems benefit from both greedy choices and dynamic programming optimizations. The greedy step ensures efficiency, while dynamic programming ensures correctness.
-   - **Example Problems:**
-     - [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
-     - [Edit Distance](https://leetcode.com/problems/edit-distance/)
+- **Easy:**
+  - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  - [Jump Game](https://leetcode.com/problems/jump-game/)
+  - [House Robber](https://leetcode.com/problems/house-robber/)
+- **Medium:**
+  - [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+  - [Partition Labels](https://leetcode.com/problems/partition-labels/)
+  - [Word Break](https://leetcode.com/problems/word-break/)
+- **Hard:**
+  - [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)
+  - [Candy](https://leetcode.com/problems/candy/)
+
+---
 
 ### 39. **Tree Dynamic Programming**
-   - DP applied on trees, where the state of a node is dependent on the states of its children or subtrees.
-   - **Example Problems:**
-     - [House Robber III](https://leetcode.com/problems/house-robber-iii/)
-     - [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)
+- **Easy:**
+  - [House Robber III](https://leetcode.com/problems/house-robber-iii/)
+  - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+  - [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
+- **Medium:**
+  - [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)
+  - [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+  - [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
+- **Hard:**
+  - [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
+  - [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)
+
+---
 
 ### 40. **Mathematical + Combinatorics**
-   - Sometimes problems require combinatorics, permutation, and counting principles beyond typical dynamic programming or recursion.
-   - **Example Problems:**
-     - [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
-     - [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/)
-     - [Catalan Numbers Problems](https://leetcode.com/problems/unique-binary-search-trees/)
+- **Easy:**
+  - [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
+  - [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+  - [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+- **Medium:**
+  - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+  - [Catalan Number](https://leetcode.com/problems/unique-binary-search-trees/) (Conceptual)
+  - [Subsets](https://leetcode.com/problems/subsets/)
+- **Hard:**
+  - [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
+  - [N-Queens](https://leetcode.com/problems/n-queens/)
+
+---
 
 ### 41. **Dual Heap**
-   - This pattern is a more advanced variation of the heap/pq pattern where two heaps are maintained simultaneously, such as when handling sliding windows with minimum and maximum.
-   - **Example Problems:**
-     - [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+- **Easy:**
+  - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+  - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+  - [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array
+
+---
+
+Continuing with the remaining patterns and their associated problems from LeetCode:
+
+---
+
+### 31. **Segment Tree / Binary Indexed Tree (Fenwick Tree)**
+- **Easy:**
+  - [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+  - [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+  - [Binary Indexed Tree Implementation](https://leetcode.com/problems/range-sum-query-immutable/) (conceptual)
+- **Medium:**
+  - [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
+  - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+  - [Maximum Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+- **Hard:**
+  - [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
+  - [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
+
+---
+
+### 32. **Game Theory / Minimax**
+- **Easy:**
+  - [Nim Game](https://leetcode.com/problems/nim-game/)
+  - [Stone Game](https://leetcode.com/problems/stone-game/)
+  - [Can I Win](https://leetcode.com/problems/can-i-win/)
+- **Medium:**
+  - [Predict the Winner](https://leetcode.com/problems/predict-the-winner/)
+  - [Flip Game II](https://leetcode.com/problems/flip-game-ii/)
+  - [Stone Game VII](https://leetcode.com/problems/stone-game-vii/)
+- **Hard:**
+  - [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+  - [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+
+---
+
+### 33. **Graph Coloring / Bipartite Graphs**
+- **Easy:**
+  - [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+  - [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)
+  - [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- **Medium:**
+  - [Course Schedule](https://leetcode.com/problems/course-schedule/)
+  - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+  - [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+- **Hard:**
+  - [Graph Coloring Problem](https://leetcode.com/problems/possible-bipartition/) (conceptual)
+  - [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+
+---
+
+### 34. **Sweep Line Algorithm**
+- **Easy:**
+  - [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+  - [Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
+  - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- **Medium:**
+  - [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+  - [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
+  - [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+- **Hard:**
+  - [Employee Free Time](https://leetcode.com/problems/employee-free-time/)
+  - [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+
+---
+
+### 35. **Exponential Search**
+- **Easy:**
+  - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+  - [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+  - [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- **Medium:**
+  - [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  - [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+  - [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+- **Hard:**
+  - [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)
+  - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
+---
+
+### 36. **Trie + Backtracking**
+- **Easy:**
+  - [Word Search](https://leetcode.com/problems/word-search/)
+  - [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+  - [Word Squares](https://leetcode.com/problems/word-squares/)
+- **Medium:**
+  - [Word Search II](https://leetcode.com/problems/word-search-ii/)
+  - [Replace Words](https://leetcode.com/problems/replace-words/)
+  - [Concatenated Words](https://leetcode.com/problems/concatenated-words/)
+- **Hard:**
+  - [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
+  - [Stream of Characters](https://leetcode.com/problems/stream-of-characters/)
+
+---
+
+### 37. **Binary Search on Answer**
+- **Easy:**
+  - [Find Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+  - [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)
+  - [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+- **Medium:**
+  - [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+  - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+  - [Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+- **Hard:**
+  - [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/)
+  - [Find the Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+
+---
+
+### 38. **Greedy + Dynamic Programming Hybrid**
+- **Easy:**
+  - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  - [Jump Game](https://leetcode.com/problems/jump-game/)
+  - [House Robber](https://leetcode.com/problems/house-robber/)
+- **Medium:**
+  - [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+  - [Partition Labels](https://leetcode.com/problems/partition-labels/)
+  - [Word Break](https://leetcode.com/problems/word-break/)
+- **Hard:**
+  - [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)
+  - [Candy](https://leetcode.com/problems/candy/)
+
+---
+
+### 39. **Tree Dynamic Programming**
+- **Easy:**
+  - [House Robber III](https://leetcode.com/problems/house-robber-iii/)
+  - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+  - [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
+- **Medium:**
+  - [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)
+  - [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+  - [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
+- **Hard:**
+  - [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
+  - [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)
+
+---
+
+### 40. **Mathematical + Combinatorics**
+- **Easy:**
+  - [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
+  - [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+  - [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+- **Medium:**
+  - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+  - [Catalan Number](https://leetcode.com/problems/unique-binary-search-trees/) (Conceptual)
+  - [Subsets](https://leetcode.com/problems/subsets/)
+- **Hard:**
+  - [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
+  - [N-Queens](https://leetcode.com/problems/n-queens/)
+
+---
+
+### 41. **Dual Heap**
+- **Easy:**
+  - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+  - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+  - [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array
+
+/)
+- **Medium:**
+  - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+  - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+  - [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+- **Hard:**
+  - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+  - [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
+
+---
 
 ### 42. **Gaussian Elimination / Matrix Manipulation**
-   - Linear algebra or matrix manipulation techniques applied to problem-solving.
-   - **Example Problems:**
-     - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
-     - [Game of Life](https://leetcode.com/problems/game-of-life/)
+- **Easy:**
+  - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+  - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+  - [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
+- **Medium:**
+  - [Game of Life](https://leetcode.com/problems/game-of-life/)
+  - [Rotate Image](https://leetcode.com/problems/rotate-image/)
+  - [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- **Hard:**
+  - [N-Queens](https://leetcode.com/problems/n-queens/)
+  - [Solve the Equation](https://leetcode.com/problems/solve-the-equation/)
 
-### 43. **Bucket Sort / Radix Sort Pattern**
-   - These sorting algorithms come up in scenarios where comparison-based sorting methods may not be efficient, especially in linear time problems.
-   - **Example Problems:**
-     - [Maximum Gap](https://leetcode.com/problems/maximum-gap/)
-     - [Sort Colors](https://leetcode.com/problems/sort-colors/)
+---
+
+### 43. **Bucket Sort / Radix Sort**
+- **Easy:**
+  - [Sort Colors](https://leetcode.com/problems/sort-colors/)
+  - [Maximum Gap](https://leetcode.com/problems/maximum-gap/)
+  - [Sort an Array](https://leetcode.com/problems/sort-an-array/)
+- **Medium:**
+  - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+  - [Find Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+  - [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
+- **Hard:**
+  - [Maximum Gap](https://leetcode.com/problems/maximum-gap/)
+  - [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+
+---
 
 ### 44. **Simulated Annealing / Monte Carlo**
-   - These are probabilistic techniques used in optimization problems where the problem has no deterministic solution.
-   - **Example Problems:**
-     - [Simulated Annealing (Custom Implementations)](https://leetcode.com/problems/knight-dialer/)
+- **Easy:**
+  - [Custom Problem Using Simulated Annealing](https://leetcode.com/problemset/all/) (Concept)
+  - [Random Pick Index](https://leetcode.com/problems/random-pick-index/)
+  - [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
+- **Medium:**
+  - [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/)
+  - [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)
+  - [Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)
+- **Hard:**
+  - [Simulated Annealing Custom Problem](https://leetcode.com/problemset/all/) (Concept)
+  - [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+
+---
 
 ### 45. **Floyd-Warshall Algorithm (All-Pairs Shortest Path)**
-   - This is a dynamic programming approach for solving all-pairs shortest path problems on graphs.
-   - **Example Problems:**
-     - [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
-     - [City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+- **Easy:**
+  - [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
+  - [Find the City with the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+  - [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+- **Medium:**
+  - [Minimum Cost to Make at Least One Valid Path](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+  - [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+  - [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- **Hard:**
+  - [Floyd-Warshall Algorithm](https://leetcode.com/problemset/all/) (Concept)
+  - [Travelling Salesman Problem](https://leetcode.com/problemset/all/) (Concept)
 
-
-### Conclusion:
-This list now incorporates some rare or niche patterns that are less frequently encountered but may appear in specific problem sets or advanced competitions. At this point, we have a highly **comprehensive** set of patterns that should cover virtually any algorithmic challenge presented on LeetCode. 
-
-In summary, there may still be specialized approaches based on extremely specific problems or optimizations, but the patterns listed so far encompass the vast majority of question types and methodologies you'll encounter.
+---
