@@ -1,0 +1,62 @@
+# Maven specific
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IDE specific
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Gradle specific (if applicable)
+/build/
+.gradle/
+
+# Environment variables
+.env
+
+# Personal editor files
+*~
+*.swp
+
+# Ignore IntelliJ IDEA configuration files
+.idea/compiler.xml
+.idea/encoding.xml
+.idea/misc.xml
+.idea/workspace.xml
+
+# Optionally keep some shared settings
+# !.idea/modules.xml
+# !.idea/vcs.xml
+# !.idea/runConfigurations/
