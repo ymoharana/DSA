@@ -1,8 +1,9 @@
-package com.example;
+package com.example.twosum;
 
 import java.util.HashMap;
 
-public class TwoSum {
+//Problem Link: https://leetcode.com/problems/two-sum/description/
+public class TwoSumBruteForce {
 
     public int[] twoSumBruteForce(int[] nums, int target) {
         int[]  result = null;
@@ -24,23 +25,7 @@ public class TwoSum {
         return result;
     }
     //Optimization using hashmap and complement of a number
-    public int[] twoSumOptimised1(int[] nums, int target) {
-        int[] result = null;
-        HashMap<Integer, Integer> numsToIndex = new HashMap<>();
-
-        for(int i=0; i< nums.length ; i++){
-            int complement = target - nums[i];
-            if(numsToIndex.containsKey(complement)){
-                result = new int[]{numsToIndex.get(complement), i};
-                break;
-            }
-            numsToIndex.put(nums[i],i);
-
-        }
-        return result;
-    }
-    //Two pointer optimization
-    public int[] twoSumOptimised2(int[] nums, int target) {
+    public int[] twoSumOptimised(int[] nums, int target) {
         int[] result = null;
         HashMap<Integer, Integer> numsToIndex = new HashMap<>();
 
