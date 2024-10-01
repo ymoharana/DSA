@@ -3,7 +3,7 @@ package com.example.twosum;
 import java.util.Arrays;
 
 /**
- * //Problem Link: https://leetcode.com/problems/two-sum/description/
+ * //Problem Link: <a href="https://leetcode.com/problems/two-sum/description/">...</a>
  * Class to solve the Two Sum problem using the two-pointer technique.
  *
  * <p>This class provides a method to find the indices of two numbers in an array that add up to a

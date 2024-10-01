@@ -1,7 +1,7 @@
 package com.example;
 
 /**
- * Class to solve the Move Zeroes problem.Link: https://leetcode.com/problems/move-zeroes/description/
+ * Class to solve the Move Zeroes problem.Link: <a href="https://leetcode.com/problems/move-zeroes/description/">...</a>
  *
  * <p>This class provides a method to move all zeros in an integer array to the end while
  * maintaining the relative order of non-zero elements. The operation is performed in-place without

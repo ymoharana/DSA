@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * //Problem Link: https://leetcode.com/problems/two-sum/description/
+ * //Problem Link: <a href="https://leetcode.com/problems/two-sum/description/">...</a>
  * Class to solve the Two Sum problem.
  *
  * <p>This class provides a method to find the indices of two numbers in an array that add up to a
